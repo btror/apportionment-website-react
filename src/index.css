@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#website-body {
+  background: #45EB7D;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*
+ * navigation bar
+ */
+
+#navbar {
+  border: 1px solid gray;
 }
+
+#navbar #nav-item {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/*
+ * website banner
+ */
+
+#website-banner {
+  background: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+
+#website-banner object{
+  margin-top: 20px;
+  width: 290px;
+  height: 150px;
+  background-image: url("./images/websiteLogo.png");
+  background-size: 100%, 100%;
+  border: none;
+}
+
+#website-banner p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+/*
+ * homepage
+ */
+
+#home-content {
+  background: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#home-content article {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+#home-content header {
+  font-size: 18pt;
+}
+
+#home-content p {
+  margin-top: 10px;
+  font-size: 12pt;
+}
+
+/*
+ * about page
+ */
+
+ #about-content {
+  background: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#about-content article {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+#about-content header {
+  font-size: 18pt;
+}
+
+#about-content p {
+  margin-top: 10px;
+  font-size: 12pt;
+}
+
+/*
+ * footer
+ */
+
+ #footer {
+   background: white;
+   border: 1px solid gray;
+   text-align: center;
+ }
