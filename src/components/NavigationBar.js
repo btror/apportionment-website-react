@@ -11,23 +11,23 @@ function NavigationBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link id="nav-item">
-            <Link to="/">Home</Link>
+            <Link to="/" id='nav-link'>Home</Link>
           </Nav.Link>
           <Nav.Link id="nav-item">
-            <Link to="/about">About</Link>
+            <Link to="/about" id='nav-link'>About</Link>
           </Nav.Link>
-          <NavDropdown title="Calculators" id="nav-item">
-            <NavDropdown.Item href="/calculator/hamilton">
-              Hamilton's method
+          <NavDropdown title="Calculators " id="nav-item">
+            <NavDropdown.Item>
+              <Link to='/calculators/hamilton' id='nav-link'>Hamilton's method</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/calculator/jefferson">
-              Jefferson's method
+            <NavDropdown.Item>
+            <Link to='/calculators/jefferson' id='nav-link'>Jefferson's method</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/calculator/adam">
-              Adam's method
+            <NavDropdown.Item>
+            <Link to='/calculators/adam' id='nav-link'>Adam's method</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/calculator/webster">
-              Webster's method
+            <NavDropdown.Item>
+            <Link to='/calculators/webster' id='nav-link'>Webster's method</Link>
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>

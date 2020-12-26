@@ -14,6 +14,15 @@
 #navbar #nav-item {
   margin-left: 20px;
   margin-right: 10px;
+  color: black;
+}
+
+#navbar #nav-link {
+  color: black;
+}
+
+#navbar #nav-link:hover {
+  text-decoration: none;
 }
 
 /*
@@ -105,3 +114,38 @@
    border: 1px solid gray;
    text-align: center;
  }
+
+/*
+ * calculator
+ */
+
+ #calculator {
+   background: white;
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+ }
+
+ #calculator #row {
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+
+ #calculator #row #table {
+   text-align: center;
+ }
+
+ #calculator #row #table input {
+   width: 100%;
+ }
+
+ #calculator #row #add-button {
+   margin-right: 20px;
+   background: blue;
+   border: 1px solid blue;
+ }
+
+ #calculator #row #remove-button {
+  margin-right: 20px;
+  background: red;
+  border: 1px solid red;
+}

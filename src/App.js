@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 // pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import CalculatorHamilton from "./pages/CalculatorHamilton";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/calculators/hamilton">
+            <CalculatorHamilton />
           </Route>
           <Route path="/">
             <Home />
